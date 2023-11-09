@@ -3,7 +3,7 @@
     $host = 'localhost';
     $user = 'root';
     $pass = '';
-    $db = 'gravadora_teste';
+    $db = 'gravadora';
 
     $conn = new mysqli($host, $user, $pass, $db);
 
