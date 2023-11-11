@@ -44,6 +44,9 @@
             <td>
                 $birth_formation
             </td>
+            <td>
+                <a href='edit.php?id=$id'>Editar</a>
+            </td>
         </tr>";
     }
 

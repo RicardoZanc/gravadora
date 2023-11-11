@@ -20,16 +20,16 @@
     include("../connection.php");
 
     if ($_SERVER['REQUEST_METHOD'] == "POST"){
-        $bname = $_POST['bname'];
-        $bband_artist = $_POST['bband_artist'];
-        $bbirth_formation = $_POST['bbirth_formation'];
+        $name = $_POST['bname'];
+        $band_artist = $_POST['bband_artist'];
+        $birth_formation = $_POST['bbirth_formation'];
 
         $sql = "
             INSERT INTO
                 artists
                 (name, band_artist, birth_formation)
             VALUES
-                ('$bname', '$bband_artist', '$bbirth_formation')
+                ('$name', '$band_artist', '$birth_formation')
                 ;
             ";
 
